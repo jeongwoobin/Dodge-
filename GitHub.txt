@@ -1,0 +1,22 @@
+* ls -> list
+* cd -> change directory
+* mkdir -> make directory
+* rm -> remove
+
+git + 명령어
+git config -> 최초 설정
+
+git status -> 현재 git 상태 보기
+git log -> log 보기
+
+git init -> initialize 폴더를 git을 사용할 수 있는 상태로 만들어 줌
+git clone -> 웹 repository를 로컬로 복제
+
+git "fork" -> 다른 사람의 repository를 내 repository로 복사하는 것
+
+git add -> git commit -> git push
+git add .
+git commit -m "커밋 메시지"
+git push origin master
+
+git pull origin master 하면 로컬을 웹과 동일하게 업데이트해주는 것이지만 잘 안됨(이유 나도 모름) -> 이럴 땐 그냥 지우고 다시 git clone하기
